@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*共通CSSここから*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 2.0;
+  letter-spacing: 0.1rem;
+}
+
+*,*::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-style: 2rem;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: all .6s ease;
+}
+
+ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*共通CSSここまで*/
