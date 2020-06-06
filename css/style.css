@@ -73,7 +73,6 @@ ul,li,dl,dt,dd {
 }
 
 .header-nav {
-  display: inline-block;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -81,11 +80,11 @@ ul,li,dl,dt,dd {
 }
 
 .nav-item {
-  margin: 0 25px;
+  margin: 0 20px;
 }
 
 .header-nav .nav-item:nth-child(5) {
-  margin: 0;
+  margin: 0 0 0 20px;
   padding: 0 10px;
   color: #fff;
   background-color: rgb(67, 161, 161);
