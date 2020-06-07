@@ -49,6 +49,7 @@ img {
 a {
   text-decoration: none;
   transition: all .6s ease;
+  color: #333;
 }
 
 a:hover {
@@ -60,6 +61,18 @@ ul,li,dl,dt,dd {
   padding: 0;
   list-style: none;
 }
+
+.btn {
+  display: block;
+  border: 1px solid #333;
+  width: 210px;
+  height: 50px;
+  cursor: pointer;
+  margin: 100px auto 0;
+  transition: all .25s ease;
+}
+
+
 
 /*共通CSSここまで*/
 
@@ -143,10 +156,19 @@ ul,li,dl,dt,dd {
   background-color: rgba(243, 239, 236, 0.959);
 }
 
+.title-wrapper {
+  margin-bottom: 50px;
+}
+
+.news-body .title-wrapper .en-title {
+  text-align: center;
+  margin-top: 0;
+}
+
 .news-body {
   height: 570px;
   width: 960px;
-  padding: 20px;
+  padding: 20px 50px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -155,8 +177,19 @@ ul,li,dl,dt,dd {
   text-align: center;
 }
 
-.news-body .title-wrapper .en-title {
-  text-align: center;
-  margin-top: 0;
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.news-item {
+  width: calc((100% / 2) - 20px);
+}
+
+.news-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
 /*お知らせここまで*/
