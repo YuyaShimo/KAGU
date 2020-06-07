@@ -187,6 +187,30 @@ ul,li,dl,dt,dd {
   width: calc((100% / 2) - 20px);
 }
 
+.news-item li:nth-child(1),
+.news-item li:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.news-desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.news-desc .news-release {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.news-category {
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: rgb(67, 161, 161);
+  margin: 0;
+  padding: 0 5px;
+}
+
 .news-btn:hover {
   background-color: #333;
   color: #fff;
