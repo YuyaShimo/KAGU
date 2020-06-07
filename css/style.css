@@ -34,11 +34,14 @@ h1 {
 h2 {
   font-size: 2.3rem;
   font-weight: 400;
+  text-align: center;
 }
 
 .en-title {
   font-size: 1.5rem;
   color: rgb(221, 169, 25);
+  margin-top: 0;
+  text-align: center;
 }
 
 img {
@@ -64,12 +67,18 @@ ul,li,dl,dt,dd {
 
 .btn {
   display: block;
-  border: 1px solid #333;
+  border: 2px solid #333;
   width: 210px;
   height: 50px;
   cursor: pointer;
   margin: 0 auto;
   transition: all .25s ease;
+  text-align: center;
+}
+
+.page-inner {
+  width: 1250px;
+  margin: 0 auto;
 }
 
 /*共通CSSここまで*/
@@ -151,6 +160,7 @@ ul,li,dl,dt,dd {
 .news-container {
   width: 100%;
   height: 610px;
+  padding: 20px 0;
   background-color: rgba(243, 239, 236, 0.959);
 }
 
@@ -160,7 +170,6 @@ ul,li,dl,dt,dd {
 
 .news-body .title-wrapper .en-title {
   text-align: center;
-  margin-top: 0;
 }
 
 .news-body {
@@ -217,5 +226,18 @@ ul,li,dl,dt,dd {
   background-color: #333;
   color: #fff;
 }
+
+/*お知らせレスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .news-list {
+    display: block;
+  }
+
+  .news-item {
+    margin: auto;
+  }
+}
+/*お知らせレスポンシブここまで*/
 
 /*お知らせここまで*/
