@@ -307,6 +307,7 @@ ul,li,dl,dt,dd {
 
 .low-item .furniture-desc {
   width: 100%;
+  height: 350px;
   padding: 0;
 }
 
@@ -319,4 +320,58 @@ ul,li,dl,dt,dd {
   height: 380px;
   object-fit: cover;
 }
+
+.low-item .btn {
+  margin: 60px auto 0;
+}
 /*取り扱い家具一覧ここまで*/
+
+/*店舗ここから*/
+.shop-container {
+  background-color: rgba(243, 239, 236, 0.959);
+  height: 640px;
+  padding: 60px 0;
+}
+
+.shop-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.shop-icon {
+  position: relative;
+  height: 200px;
+  width: 380px;
+  color: #fff;
+  background-color: rgb(67, 161, 161);
+  margin-right: 30px;
+}
+
+.shop-item .shop-desc {
+  height: 200px;
+}
+
+.shop-item .shop-desc p {
+  font-size: 1.3rem;
+}
+
+.shop-icon img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.shop-icon p {
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*店舗ここまで*/
