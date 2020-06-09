@@ -392,7 +392,6 @@ ul,li,dl,dt,dd {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center ;
-  z-index: 1;
   padding: 30px 0;
 }
 
@@ -421,3 +420,41 @@ ul,li,dl,dt,dd {
   color: #555;
 }
 /*リクルートここまで*/
+
+/*フッターここから*/
+.footer-body {
+  color: #fff;
+  background-color: rgb(34, 34, 34);
+  height: 340px;
+  padding: 40px 80px;
+}
+
+.footer-logo .name,
+.footer-logo .address {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.footer-nav a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  width: calc(100% / 2);
+}
+
+
+/*フッターここまで*/
