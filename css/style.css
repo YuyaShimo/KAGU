@@ -393,6 +393,7 @@ ul,li,dl,dt,dd {
   background-size: cover;
   background-position: center ;
   z-index: 1;
+  padding: 30px 0;
 }
 
 .recruit-body::after {
@@ -404,16 +405,9 @@ ul,li,dl,dt,dd {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* .recruit-body .title-wrapper h2 {
-  color: #fff;
-}
-
-.recruit-body .title-wrapper .en-title {
-  color: #fff;
-} */
-
 .recruit-desc p {
   color: #fff;
+  text-align: center;
 }
 
 .recruit-btn {
@@ -426,5 +420,4 @@ ul,li,dl,dt,dd {
   background: #fff;
   color: #555;
 }
-
 /*リクルートここまで*/
