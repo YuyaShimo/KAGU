@@ -240,8 +240,24 @@ ul,li,dl,dt,dd {
 /*お知らせレスポンシブここから*/
 @media screen and (max-width: 559px) {
 
+  .news-container {
+    background-color: #fff;
+  }
+
+  .news-body {
+    padding: 0 10px;
+  }
+
   .news-list {
     display: block;
+  }
+
+  .news-item {
+    width: 100%;
+  }
+
+  .news-btn {
+    margin: 30px auto 0;
   }
 }
 /*お知らせレスポンシブここまで*/
@@ -356,7 +372,7 @@ ul,li,dl,dt,dd {
 
   .furniture-btn,
   .low-item .btn {
-    margin: 20px auto;
+    margin: 30px auto;
   }
 
   .low-list {
@@ -413,6 +429,7 @@ ul,li,dl,dt,dd {
 }
 
 .shop-icon p {
+  display: inline-block;
   position: absolute;
   font-size: 2rem;
   top: 50%;
@@ -442,6 +459,11 @@ ul,li,dl,dt,dd {
   .shop-icon {
     width: 100%;
     margin: 0;
+  }
+
+  .shop-icon p {
+    width: 100%;
+    text-align: center;
   }
 
   .shop-desc h3 {
