@@ -87,7 +87,7 @@ ul,li,dl,dt,dd {
 }
 
 .page-inner {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -142,7 +142,7 @@ ul,li,dl,dt,dd {
 }
 
 .keyvisual img {
-  height: 80vh;
+  /* height: 80vh; */
   object-fit: cover;
 }
 
@@ -158,8 +158,8 @@ ul,li,dl,dt,dd {
 /*メインビジュアルレスポンシブここから*/
 @media screen and (max-width: 1024px) {
 
-  .keyvisual img {
-    object-fit: fill;
+  .keyvisual {
+    object-fit: initial;
   }
 }
 /*メインビジュアルレスポンシブここまで*/
@@ -169,7 +169,6 @@ ul,li,dl,dt,dd {
 /*お知らせここから*/
 .news-container {
   width: 100%;
-  height: 610px;
   padding: 20px 0;
   background-color: rgba(243, 239, 236, 0.959);
 }
@@ -183,8 +182,7 @@ ul,li,dl,dt,dd {
 }
 
 .news-body {
-  height: 570px;
-  width: 960px;
+  max-width: 960px;
   padding: 20px 50px;
   margin: 0 auto;
   background-color: #fff;
@@ -237,10 +235,6 @@ ul,li,dl,dt,dd {
 
   .news-list {
     display: block;
-  }
-
-  .news-item {
-    margin: auto;
   }
 }
 /*お知らせレスポンシブここまで*/
@@ -324,12 +318,47 @@ ul,li,dl,dt,dd {
 .low-item .btn {
   margin: 60px auto 0;
 }
+
+/*取り扱い家具レスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .furniture-desc h3,
+  .furniture-desc p {
+    text-align: center;
+  }
+
+  .upper-item {
+    display: block;
+  }
+
+  .upper-img {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .upper-img img {
+    height: 300px;
+  }
+
+  .furniture-desc {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+  .low-list {
+    display: block;
+  }
+
+  .furniture-btn {
+    margin: 20px auto;
+  }
+}
+/*取り扱い家具レスポンシブここまで*/
 /*取り扱い家具一覧ここまで*/
 
 /*店舗ここから*/
 .shop-container {
   background-color: rgba(243, 239, 236, 0.959);
-  height: 640px;
   padding: 60px 0;
 }
 
@@ -387,12 +416,11 @@ ul,li,dl,dt,dd {
 /*リクルートここから*/
 .recruit-body {
   position: relative;
-  height: 430px;
   background: url(../images/recruit.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center ;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .recruit-body::after {
@@ -407,6 +435,7 @@ ul,li,dl,dt,dd {
 .recruit-desc p {
   color: #fff;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .recruit-btn {
@@ -425,7 +454,6 @@ ul,li,dl,dt,dd {
 .footer-body {
   color: #fff;
   background-color: rgb(34, 34, 34);
-  height: 340px;
   padding: 40px 80px;
 }
 
