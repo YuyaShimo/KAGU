@@ -535,5 +535,21 @@ ul,li,dl,dt,dd {
   width: calc(100% / 2);
 }
 
+/*フッターレスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .footer-body {
+    padding: 20px 40px;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    text-align: center;
+  }
+}
+/*フッターレスポンシブここまで*/
 
 /*フッターここまで*/
