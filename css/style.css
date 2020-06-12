@@ -152,10 +152,20 @@ ul,li,dl,dt,dd {
   }
 
   .header-nav {
-    display: none;
+    display: block;
   }
 
   /*spハンバーガメニュー*/
+  .header-nav{
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    left: 100%;
+    background: rgba(255,255,255,0.95);
+    height: 100vh;
+    z-index: 10;
+    transition: all 0.4s;
+}
   .menu-trigger {
   position: absolute;
   right: 10px;
@@ -184,6 +194,20 @@ ul,li,dl,dt,dd {
   .menu-trigger span:nth-of-type(3) {
   bottom: 0;
   }
+
+  /*jsで変更される箇所*/
+.header-nav.is-active{
+  left: 0;
+}
+.menu-trigger.is-active span:nth-of-type(1){
+  transform: translateY(9px) rotate(-315deg);
+}
+.menu-trigger.is-active span:nth-of-type(2){
+  opacity: 0;
+}
+.menu-trigger.is-active span:nth-of-type(3){
+  transform: translateY(-9px) rotate(315deg);
+}
 }
 /*ヘッダーここまで*/
 
