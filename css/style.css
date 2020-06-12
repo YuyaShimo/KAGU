@@ -116,18 +116,23 @@ ul,li,dl,dt,dd {
 }
 
 .header-nav {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  line-height: 80px;
 }
 
 .nav-item {
-  margin: 0 20px;
+  margin: 0 10px;
+  height: 80px;
+  line-height: 80px;
 }
 
 .header-nav .nav-item:nth-child(5) {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
   padding: 0 10px;
   color: #fff;
   background-color: rgb(67, 161, 161);
@@ -140,35 +145,6 @@ ul,li,dl,dt,dd {
   background-color: rgb(221, 169, 25);
 }
 
-.menu-trigger {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all 0.4s;
-  width: 30px;
-  height: 20px;
-  display: block;
-}
-.menu-trigger span {
-  display: inline-block;
-  transition: all 0.4s;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: #000;
-}
-.menu-trigger span:nth-of-type(1) {
-  top: 0;
-}
-.menu-trigger span:nth-of-type(2) {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.menu-trigger span:nth-of-type(3) {
-  bottom: 0;
-}
-
 @media screen and (max-width: 559px) {
 
   .header {
@@ -177,6 +153,36 @@ ul,li,dl,dt,dd {
 
   .header-nav {
     display: none;
+  }
+
+  /*spハンバーガメニュー*/
+  .menu-trigger {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.4s;
+  width: 30px;
+  height: 20px;
+  display: block;
+  }
+  .menu-trigger span {
+  display: inline-block;
+  transition: all 0.4s;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  }
+  .menu-trigger span:nth-of-type(1) {
+  top: 0;
+  }
+  .menu-trigger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  }
+  .menu-trigger span:nth-of-type(3) {
+  bottom: 0;
   }
 }
 /*ヘッダーここまで*/
@@ -187,7 +193,6 @@ ul,li,dl,dt,dd {
 }
 
 .keyvisual img {
-  /* height: 80vh; */
   object-fit: cover;
 }
 
@@ -288,6 +293,10 @@ ul,li,dl,dt,dd {
 
   .news-body {
     padding: 0 10px;
+  }
+
+  .news-body .title-wrapper .en-title {
+    margin: 0;
   }
 
   .news-list {
