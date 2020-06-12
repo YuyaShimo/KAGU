@@ -151,63 +151,78 @@ ul,li,dl,dt,dd {
     height: 60px;
   }
 
-  .header-nav {
-    display: block;
-  }
-
   /*spハンバーガメニュー*/
   .header-nav{
     position: fixed;
     width: 100%;
-    top: 60px;
     left: 100%;
+    display: block;
+    margin-top: 60px;
     background: rgba(255,255,255,0.95);
     height: 100vh;
     z-index: 10;
     transition: all 0.4s;
-}
+    font-size: 2.0rem;
+  }
+
+  .nav-item {
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .header-nav .nav-item:nth-child(5) {
+    margin: 0 0 10px;
+  }
+
+  .header-nav .nav-item:nth-child(6) {
+    margin: 0;
+    padding-left: 10px;
+  }
+
   .menu-trigger {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all 0.4s;
-  width: 30px;
-  height: 20px;
-  display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s;
+    width: 30px;
+    height: 20px;
+    display: block;
+    z-index: 100;
   }
   .menu-trigger span {
-  display: inline-block;
-  transition: all 0.4s;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: #000;
+    display: inline-block;
+    transition: all 0.4s;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
   }
   .menu-trigger span:nth-of-type(1) {
-  top: 0;
+    top: 0;
   }
   .menu-trigger span:nth-of-type(2) {
-  top: 50%;
-  transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
   }
   .menu-trigger span:nth-of-type(3) {
-  bottom: 0;
+    bottom: 0;
   }
 
   /*jsで変更される箇所*/
-.header-nav.is-active{
-  left: 0;
-}
-.menu-trigger.is-active span:nth-of-type(1){
-  transform: translateY(9px) rotate(-315deg);
-}
-.menu-trigger.is-active span:nth-of-type(2){
+  .header-nav.is-active{
+    left: 0;
+  }
+
+  .menu-trigger.is-active span:nth-of-type(1){
+    transform: translateY(9px) rotate(-315deg);
+  }
+  .menu-trigger.is-active span:nth-of-type(2){
   opacity: 0;
-}
-.menu-trigger.is-active span:nth-of-type(3){
+  }
+  .menu-trigger.is-active span:nth-of-type(3){
   transform: translateY(-9px) rotate(315deg);
-}
+  }
 }
 /*ヘッダーここまで*/
 
