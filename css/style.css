@@ -96,6 +96,8 @@ ul,li,dl,dt,dd {
 /*ヘッダーここから*/
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -323,7 +325,7 @@ ul,li,dl,dt,dd {
 }
 
 .low-item {
-  width: calc((100% / 3) - 30px);
+  width: calc((100% / 3) - 50px);
 }
 
 .low-item .furniture-desc {
