@@ -93,6 +93,7 @@ ul,li,dl,dt,dd {
 
 .page-contents {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .page-contents .page-head {
@@ -693,5 +694,20 @@ ul,li,dl,dt,dd {
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここから*/
 
+.theme-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.theme-item {
+  width: 340px;
+  margin-bottom: 60px;
+}
+
+.theme-img img {
+  height: 340px;
+  object-fit: cover;
+}
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
