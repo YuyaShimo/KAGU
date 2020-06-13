@@ -33,7 +33,7 @@ $(function(){
 		shuffle: false,
 		reverse: false,
 		callback: function () {}
-	}
+	},
 	callback: function () {},
 	type: 'char'
   });
