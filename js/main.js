@@ -10,7 +10,7 @@ $(function(){
     selector: '.texts',	// 要素を指定
 	loop: false,	// ループ繰り返し
 	minDisplayTime: 3000,	// アニメーションの間隔時間
-	initialDelay: 1000,	// アニメーション開始までの遅延時間
+	initialDelay: 300,	// アニメーション開始までの遅延時間
 	autoStart: true,	// アニメーションの自動スタート
 	inEffects: [],	// エフェクト開始時のアニメーション設定
 	outEffects: [ 'hinge' ],	// エフェクト終了時のアニメーション設定
