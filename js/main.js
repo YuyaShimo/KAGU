@@ -7,7 +7,7 @@ $(function(){
   });
 
   // メインビジュアルテキストアニメーション
-	$('.animation').textillate({
+	$('#animation').textillate({
     selector: '.texts',	// 要素を指定
     loop: false,	// ループ繰り返し
     minDisplayTime: 3000,	// アニメーションの間隔時間
@@ -35,8 +35,8 @@ $(function(){
       reverse: false,
       callback: function () {}
     },
-    callback: function () {},
-    type: 'char'
+      callback: function () {},
+      type: 'char'
     });
 
 });
