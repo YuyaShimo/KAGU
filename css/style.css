@@ -121,6 +121,14 @@ ul,li,dl,dt,dd {
   color: #fff;
 }
 
+.seedetail {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
 /*共通CSSここまで*/
 
 /*ヘッダーここから*/
@@ -558,13 +566,6 @@ ul,li,dl,dt,dd {
   margin: 0;
 }
 
-.shop-desc .seedetail {
-  background-color: rgba(243, 239, 236, 0.959);
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-
 /*店舗レスポンシブここから*/
 @media screen and (max-width: 559px) {
 
@@ -722,6 +723,12 @@ ul,li,dl,dt,dd {
   font-weight: 900;
 }
 
+.theme-wrapper .seedetail {
+  margin: 0 0 0 auto;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
 /*テーマで探すここまで*/
 
 /*カラーで探すここから*/
@@ -796,5 +803,16 @@ ul,li,dl,dt,dd {
 .color-icon.charcoal {
   background-color: chocolate;
 }
+
+.color-body .seedetail {
+  display: block;
+  font-weight: 500;
+ margin: 0 0 0 auto;
+}
 /*カラーで探すここまで*/
+
+/*シーンで探すここから*/
+
+/*シーンで探すここまで*/
+
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
