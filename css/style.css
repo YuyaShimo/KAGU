@@ -132,7 +132,6 @@ ul,li,dl,dt,dd {
   }
 }
 
-
 .seedetail {
   display: block;
   background: none;
@@ -747,6 +746,7 @@ ul,li,dl,dt,dd {
 .color-wrapper {
   background-color: rgba(243, 239, 236, 0.959);
   padding: 30px 0 70px;
+  margin-bottom: 100px;
 }
 
 .color .page-inner {
@@ -823,8 +823,14 @@ ul,li,dl,dt,dd {
 }
 /*カラーで探すここまで*/
 
-/*シーンで探すここから*/
+/*カテゴリーで探すここから*/
 
-/*シーンで探すここまで*/
+.min-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/*カテゴリーで探すここまで*/
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
