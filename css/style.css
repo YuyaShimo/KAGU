@@ -121,6 +121,18 @@ ul,li,dl,dt,dd {
   color: #fff;
 }
 
+@media screen and (max-width: 559px) {
+
+  .page-contents .page-head {
+    height: 100px;
+  }
+
+  .page-contents .page-head img {
+    height: 100px;
+  }
+}
+
+
 .seedetail {
   display: block;
   background: none;
