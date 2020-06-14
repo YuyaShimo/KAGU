@@ -703,6 +703,7 @@ ul,li,dl,dt,dd {
 }
 
 .theme-item {
+  position: relative;
   width: 340px;
   margin-bottom: 60px;
 }
@@ -710,6 +711,15 @@ ul,li,dl,dt,dd {
 .theme-img img {
   height: 340px;
   object-fit: cover;
+}
+
+.theme-item .theme-desc  {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 /*テーマで探すここまで*/
