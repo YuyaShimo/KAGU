@@ -39,4 +39,19 @@ $(function(){
       type: 'char'
     });
 
+    // ヘッダープルダウンメニュー
+    $(".slide").hover(
+      function() {
+        $(this)
+          .find(".second-item")
+          .stop(true)
+          .slideDown(800);
+      },
+      function() {
+        $(this)
+          .find(".second-item")
+          .slideUp(800);
+      }
+    );
+
 });
