@@ -918,7 +918,36 @@ figure {
   border-right: 4px solid darkcyan;
 }
 
-
 /*カテゴリーで探すここまで*/
+
+/*取り扱い家具一覧の詳細ページのレスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .page-inner {
+    padding: 0 10px;
+  }
+
+  .theme-item {
+    width: 100%;
+  }
+
+  .theme-body .seedetail {
+    margin: 0 auto 40px;
+  }
+
+  .color-body {
+    padding: 0 10px;
+  }
+
+  .color-item {
+    width: calc((100% / 3) - 10px);
+  }
+
+  .color-icon {
+    width: 100%;
+  }
+}
+
+/*取り扱い家具一覧の詳細ページのレスポンシブここから*/
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
