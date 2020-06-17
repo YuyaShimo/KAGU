@@ -858,6 +858,10 @@ figure {
 
 /*カテゴリーで探すここから*/
 
+.category-wrapper {
+  margin-bottom: 50px;
+}
+
 .min-inner {
   max-width: 960px;
   margin: 0 auto;
@@ -873,6 +877,12 @@ figure {
   border-bottom: solid 1px #c8c8c8;
   border-right: solid 1px #c8c8c8;
 }
+
+.category-item .link:hover img{
+  opacity:0.5;
+  filter:alpha(opacity=50);
+  -ms-filter: “alpha( opacity=50 )”;
+  }
 
 .category-item .photo {
   width: 60px;
