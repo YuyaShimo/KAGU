@@ -895,6 +895,16 @@ figure {
   font-weight: 500;
  margin: 0 0 0 auto;
 }
+
+.color-icon {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.color-icon:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
 /*カラーで探すここまで*/
 
 /*カテゴリーで探すここから*/
