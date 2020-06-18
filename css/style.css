@@ -467,7 +467,7 @@ figure {
   display: block;
   width: 100%;
   height: 600px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .upper-wrapper .furniture-desc {
@@ -1036,3 +1036,7 @@ figure {
 /*取り扱い家具一覧の詳細ページのレスポンシブここから*/
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
+
+/*販売店・展示場一覧詳細ページ(store.html)ここから*/
+
+/*販売店・展示場一覧詳細ページ(store.html)ここまで*/
