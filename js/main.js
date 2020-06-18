@@ -58,7 +58,7 @@ $(function(){
     let pagetop = $('#page_top');
     pagetop.hide();
     $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
+      if ($(this).scrollTop() > 200) {
         pagetop.fadeIn();
       } else {
         pagetop.fadeOut();
