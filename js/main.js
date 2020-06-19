@@ -72,17 +72,17 @@ $(function(){
     // スライダー
     $('.slider').on('init',function(){
       $('.slide-content').addClass('on');
-  });     
-  $('.slider').slick({
+    });     
+    $('.slider').slick({
       autoplay:true,
       autoplaySpeed:5000,
-      dots:true,
-  });
-  $('.slider').on('beforeChange',function(){
+      dots:true
+    });
+    $('.slider').on('beforeChange',function(){
       $('.slide-content').removeClass('on');
-  }); 
-  $('.slider').on('afterChange',function(){
+    }); 
+    $('.slider').on('afterChange',function(){
       $('.slide-content').addClass('on');
-  }); 
+    }); 
 
 });
