@@ -769,38 +769,53 @@ figure {
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここから*/
 
 /*スライダーここから*/
-.slider{
+.slider {
   margin: 100px auto;
   width: 80%;
 }
-.slide{
+
+.slide {
   position: relative;
 }
-.slide-link{
+
+.slide-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.slide-link {
   color: #fff;
   text-align: center;
 }
-.slide img{
-  height: auto;
+
+.slide img {
   width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
+
 .slide-content-wrap{
   left: 50%;
   position: absolute;
   top: 50%;
 }
-.slide-content{
+
+.slide-content {
   display: block;
   opacity: 0;
   transform: translate(-50%,20%);
   transition: 0s;
 }
-.slide-content.on{
+.slide-content.on {
   opacity: 1;
   transform: translate(-50%,-50%);
   transition: .5s;
 }
-.slide-title{
+.slide-title {
   font-size: 4rem;
 }
 /*スラーダーここまで*/
