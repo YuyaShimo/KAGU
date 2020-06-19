@@ -1030,6 +1030,18 @@ figure {
     padding: 0 10px;
   }
 
+  .slide img {
+    height: 200px;
+  }
+
+  .slide-title {
+    font-size: 2rem;
+  }
+
+  .slide-text {
+    font-size: 1rem
+  }
+
   .theme-item {
     width: 100%;
   }
@@ -1085,7 +1097,7 @@ figure {
   }
 }
 
-/*取り扱い家具一覧の詳細ページのレスポンシブここから*/
+/*取り扱い家具一覧の詳細ページのレスポンシブここまで*/
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
 
