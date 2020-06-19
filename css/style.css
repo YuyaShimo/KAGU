@@ -768,6 +768,43 @@ figure {
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここから*/
 
+/*スライダーここから*/
+.slider{
+  margin: 100px auto;
+  width: 80%;
+}
+.slide{
+  position: relative;
+}
+.slide-link{
+  color: #fff;
+  text-align: center;
+}
+.slide img{
+  height: auto;
+  width: 100%;
+}
+.slide-content-wrap{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+.slide-content{
+  display: block;
+  opacity: 0;
+  transform: translate(-50%,20%);
+  transition: 0s;
+}
+.slide-content.on{
+  opacity: 1;
+  transform: translate(-50%,-50%);
+  transition: .5s;
+}
+.slide-title{
+  font-size: 4rem;
+}
+/*スラーダーここまで*/
+
 /*テーマで探すここから*/
 
 .theme-list {
