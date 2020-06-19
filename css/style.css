@@ -849,9 +849,36 @@ figure {
 }
 
 .theme-wrapper .seedetail {
+  position: relative;
   margin: 0 0 0 auto;
-  font-weight: 500;
+  border: 2px solid #000;
+  padding: 20px;
   margin-bottom: 30px;
+}
+
+.theme-wrapper .seedetail::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+.theme-wrapper .seedetail:hover {
+  color: #fff;
+}
+
+.theme-wrapper .seedetail:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.theme-wrapper .seedetail:active {
+  top: 2px;
 }
 
 .theme-img {
