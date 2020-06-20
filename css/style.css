@@ -42,6 +42,16 @@ h3 {
   font-weight: 400;
 }
 
+h4 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
 .en-title {
   font-size: 1.5rem;
   color: rgb(221, 169, 25);
@@ -737,6 +747,7 @@ figure {
 
 /*フッターここまで*/
 
+/*トップへ戻るボタンここから*/
 #page_top {
   position: relative;
   position: fixed;
@@ -761,6 +772,7 @@ figure {
   font-size: 2.0rem;
   font-weight: 900;
 }
+/*トップへ戻るボタンここまで*/
 
 #page_top a:hover {
   text-decoration: none;
@@ -821,6 +833,10 @@ figure {
 /*スラーダーここまで*/
 
 /*テーマで探すここから*/
+
+.theme h3 {
+  text-align: center;
+}
 
 .theme-list {
   display: flex;
@@ -904,6 +920,10 @@ figure {
 
 .color .page-inner {
   padding: 0;
+}
+
+.color h3 {
+  text-align: center;
 }
 
 .color-list {
@@ -995,6 +1015,10 @@ figure {
 .min-inner {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.category h3 {
+  text-align: center;
 }
 
 .category-list {
@@ -1128,6 +1152,55 @@ figure {
 
 /*取り扱い家具一覧の詳細ページ（furniture.html）ここまで*/
 
-/*販売店・展示場一覧詳細ページ(store.html)ここから*/
+/*販売店一覧ページ(store-shop.html)ここから*/
+.shop-child .title-wrapper {
+  text-align: center;
+}
 
-/*販売店・展示場一覧詳細ページ(store.html)ここまで*/
+.shop-child-image {
+  margin-bottom: 50px;
+}
+
+.shop-child-image img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.region-title {
+  position: relative;
+  background-color: rgba(243, 239, 236, 0.959);
+  height: 70px;
+}
+
+.region-title h4 {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+  font-weight: 400;
+}
+
+.region-item {
+  position: relative;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 0 3%;
+}
+
+.region-item .shop-desc h5 {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.region-item .shop-desc p {
+  text-align: left;
+  margin: 0;
+}
+
+.region-item .btn {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+}
+
+/*販売店一覧ページ(store-shop.html)ここまで*/
