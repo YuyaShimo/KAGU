@@ -85,4 +85,14 @@ $(function(){
       $('.slide-content').addClass('on');
     }); 
 
+    // スムーズスクロール
+    $('a[href^="#"]').click(function(){
+      let adjust = 50;
+      let speed = 1000;
+      let href= $(this).attr("href");
+      let target = $(href == "#" || href == "" ? 'html' : href);
+      let position = target.offset().top - adjust;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+    });
 });
