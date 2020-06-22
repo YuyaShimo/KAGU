@@ -1189,12 +1189,12 @@ figure {
   padding: 0 3%;
 }
 
-.region-shop-item .shop-desc h5 {
+.region-shop-item .desc h5 {
   text-align: left;
   margin: 10px 0;
 }
 
-.region-shop-item .shop-desc p {
+.region-shop-item .desc p {
   text-align: left;
   margin: 0;
 }
