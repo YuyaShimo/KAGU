@@ -1180,7 +1180,7 @@ figure {
   font-weight: 400;
 }
 
-.region-item {
+.region-shop-item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1189,17 +1189,17 @@ figure {
   padding: 0 3%;
 }
 
-.region-item .shop-desc h5 {
+.region-shop-item .shop-desc h5 {
   text-align: left;
   margin: 10px 0;
 }
 
-.region-item .shop-desc p {
+.region-shop-item .shop-desc p {
   text-align: left;
   margin: 0;
 }
 
-.region-item .btn {
+.region-shop-item .btn {
   margin: 10px 0 0 auto;
 }
 
@@ -1209,7 +1209,7 @@ figure {
     padding: 0 10px;
   }
 
-  .region-item .btn {
+  .region-shop-item .btn {
     font-size: 1.3rem;
     width: 150px;
     height: 50px;
