@@ -194,6 +194,11 @@ figure {
   line-height: 80px;
 }
 
+.nav-item .online,
+.nav-item .contact {
+  color: #fff;
+}
+
 .header-nav .nav-item:nth-child(5) {
   margin: 0 0 0 10px;
   padding: 0 10px;
