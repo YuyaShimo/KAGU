@@ -1303,4 +1303,21 @@ figure {
   margin: 50px auto;
 }
 
+/*採用情報レスポンシブここから*/
+@media screen and (max-width: 559px)  {
+
+  .recruit-child-body {
+    padding: 0 10px;
+    font-size: 1.3rem;
+  }
+  .recruit-child dd {
+    margin: 0 0 10px 80px;
+  }
+
+  .recruit-child dl dd li:nth-of-type(2) {
+    font-size: 1rem;
+  }
+}
+/*採用情報レスポンシブここまで*/
+
 /*採用情報ここまで*/
