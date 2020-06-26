@@ -1277,5 +1277,30 @@ figure {
 /*展示場一覧ここまで(store-showroom.html)*/
 
 /*採用情報ここから*/
+.recruit-child .title-wrapper h3 {
+  text-align: center;
+}
+
+.recruit-child dt {
+  float: left;
+}
+
+.recruit-child dd {
+  border-top: 1px solid #c8c8c8;
+  margin: 0 0 16px 170px;
+}
+
+.recruit-child dl dd li:nth-of-type(2) {
+  color: rgb(221, 169, 25);
+  font-size: 1.3rem;
+}
+
+.recruit-child-body dd:last-child {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.recruit-child-body .btn {
+  margin: 50px auto;
+}
 
 /*採用情報ここまで*/
