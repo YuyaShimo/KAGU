@@ -1331,6 +1331,7 @@ figure {
   justify-content: space-between;
   margin: 50px 0;
 }
+
 .category-nav .tab {
   width: calc((100% / 4) - 50px);
   border: 1px solid rgb(221, 169, 25);
@@ -1342,7 +1343,7 @@ figure {
   color: rgb(221, 169, 25);
   text-align: center;
   padding: 5px 0;
-  transition: all .5s ease-in-out;
+  transition: all .5s ease;
 }
 
 .category-nav .tab a:hover {
@@ -1368,4 +1369,18 @@ figure {
   padding: 0 10px;
   margin: 0 10px 0 0;
 }
+
+/*お知らせ一覧レスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .news-child-container {
+    padding: 0 10px;
+  }
+  .category-nav .tab {
+    width: calc((100% / 2) - 10px);
+    margin-bottom: 20px;
+  }
+}
+/*お知らせ一覧レスポンシブここまで*/
+
 /*お知らせ一覧ここまで*/
