@@ -388,7 +388,7 @@ figure {
   justify-content: space-between;
 }
 
-.news-item {
+.news-container .news-item {
   width: calc((100% / 2) - 20px);
 }
 
@@ -1366,8 +1366,15 @@ figure {
   margin: 0 10px 0 0;
 }
 .news-category {
+  height: 25px;
+  width: 150px;
   padding: 0 10px;
   margin: 0 10px 0 0;
+}
+
+.news-category p {
+  margin: 0;
+  text-align: center;
 }
 
 /*お知らせ一覧レスポンシブここから*/
@@ -1387,5 +1394,5 @@ figure {
 /*お知らせ一覧ここまで*/
 
 /*お知らせ詳細ここから*/
-
+.news-category
 /*お知らせ詳細ここまで*/
