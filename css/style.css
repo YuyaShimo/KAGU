@@ -1401,6 +1401,17 @@ figure {
  margin-bottom: 50px;
 }
 
+.news-detail-container .min-inner a  {
+  display: block;
+ font-weight: 500;
+ margin: 30px 0 100px 0;
+}
+
+.news-detail-body {
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 50px;
+}
+
 .news-detail-body .news-detail-image {
   width: 50%;
   margin: 0 auto;
