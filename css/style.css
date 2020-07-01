@@ -1416,4 +1416,26 @@ figure {
   width: 50%;
   margin: 0 auto;
 }
+
+/*お知らせ詳細レスポンシブここから*/
+@media screen and (max-width: 559px) {
+
+  .news-detail-title .news-title {
+    font-size: 2rem;
+  }
+
+  .news-detail-container {
+    padding: 0 10px;
+  }
+
+  .news-detail-container .min-inner a  {
+   margin: 15px 0 50px 0;
+  }
+
+  .news-detail-body {
+    padding: 0;
+  }
+  
+/*お知らせ詳細レスポンシブここまで*/
+
 /*お知らせ詳細ここまで*/
