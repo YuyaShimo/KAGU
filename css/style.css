@@ -1441,5 +1441,34 @@ figure {
 /*お知らせ詳細ここまで*/
 
 /*お問い合わせここから*/
+.contact .phone-area h3 {
+  text-align: center;
+}
 
+.phone-area p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.phone-box {
+  position: relative;
+  background-color: rgba(243, 239, 236, 0.959);
+  width: 800px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.phone-box .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(221, 169, 25);
+  font-size: 5rem;
+}
+
+.phone-box .number p {
+  margin: 0;
+  color: #000;
+}
 /*お問い合わせここまで*/
