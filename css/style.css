@@ -1455,7 +1455,7 @@ figure {
   background-color: rgba(243, 239, 236, 0.959);
   width: 800px;
   height: 140px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 .phone-box .number {
@@ -1470,5 +1470,14 @@ figure {
 .phone-box .number p {
   margin: 0;
   color: #000;
+}
+
+.mail-area h3 {
+  text-align: center;
+}
+
+.mail-area p {
+  text-align: center;
+  font-size: 1.3rem;
 }
 /*お問い合わせここまで*/
