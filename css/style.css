@@ -1513,15 +1513,32 @@ figure {
   margin-right: 20px;
 }
 
+.form-item .input-area textarea {
+  width: 100%;
+  border: none;
+  background-color: rgba(243, 239, 236, 0.959);
+}
+
 .category .state {
   background-color: rgb(67, 161, 161);
   color: #fff;
   width: 50px;
-  height: 30px;
+  height: 25px;
   text-align: center;
 }
 
+.category .state p {
+margin: 0;
+}
 .input-area .mail {
   width: 100%;
+}
+
+.form .form-item:last-child {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.contact-container .btn {
+  margin: 20px auto;
 }
 /*お問い合わせここまで*/
