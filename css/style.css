@@ -1480,4 +1480,48 @@ figure {
   text-align: center;
   font-size: 1.3rem;
 }
+
+.form-item {
+  display: flex;
+  border-top: 1px solid #c8c8c8;
+  padding: 20px 0;
+}
+
+.form-item .category {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+
+.form-item .category .name {
+  margin-right: 10px;
+}
+
+.form-item .input-area {
+  display: flex;
+  width: 70%;
+}
+
+.form-item .input-area .text {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.form-item .input-area input {
+  border: none;
+  background-color: rgba(243, 239, 236, 0.959);
+  margin-right: 20px;
+}
+
+.category .state {
+  background-color: rgb(67, 161, 161);
+  color: #fff;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+
+.input-area .mail {
+  width: 100%;
+}
 /*お問い合わせここまで*/
