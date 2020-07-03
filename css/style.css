@@ -1530,7 +1530,7 @@ figure {
 .category .state p {
 margin: 0;
 }
-.input-area .mail {
+.input-area .email {
   width: 100%;
 }
 
@@ -1538,7 +1538,18 @@ margin: 0;
   border-bottom: 1px solid #c8c8c8;
 }
 
+.checkbox-area {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkbox-area span a {
+  color: rgb(67, 161, 161);
+}
+
 .contact-container .btn {
   margin: 20px auto;
 }
+
 /*お問い合わせここまで*/
