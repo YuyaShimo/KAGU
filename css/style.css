@@ -341,6 +341,26 @@ figure {
   transform: translate(-50%,-50%);
 }
 
+/*スクロールダウンボタンここから*/
+.keyvisual a {
+  position: relative;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.keyvisual a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotate(-45deg);
+}
+/*スクロールダウンボタンここまで*/
+
 /*メインビジュアルレスポンシブここから*/
 @media screen and (max-width: 1024px) {
 
