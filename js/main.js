@@ -95,4 +95,18 @@ $(function(){
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
     });
+
+    //マウスホバー時の画像アニメーション
+    let move = -20;
+    let zoom = 1.3;
+  
+    $('.item').hover(function() {       
+      width = $('.item').width() * zoom;
+      height = $('.item').height() * zoom;
+          
+      $(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
+    },
+    function() {
+      $(this).find('img').stop(false,true).animate({'width':$('.item').width(), 'height':$('.item').height(), 'top':'0', 'left':'0'}, {duration:100});  
+  });
 });
