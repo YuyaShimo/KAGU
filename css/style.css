@@ -905,11 +905,12 @@ figure {
   justify-content: space-between;
 }
 
-.item {
+.theme-img {
   position: relative;
   width: 340px;
   height: 340px;
   margin-bottom: 60px;
+  overflow: hidden;
 }
 
 .theme-img img {

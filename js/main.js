@@ -100,13 +100,13 @@ $(function(){
     let move = -20;
     let zoom = 1.3;
   
-    $('.item').hover(function() {       
-      width = $('.item').width() * zoom;
-      height = $('.item').height() * zoom;
+    $('.theme-img').hover(function() {       
+      width = $('.theme-img').width() * zoom;
+      height = $('.theme-img').height() * zoom;
           
       $(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
     },
     function() {
-      $(this).find('img').stop(false,true).animate({'width':$('.item').width(), 'height':$('.item').height(), 'top':'0', 'left':'0'}, {duration:100});  
+      $(this).find('img').stop(false,true).animate({'width':$('.theme-img').width(), 'height':$('.theme-img').height(), 'top':'0', 'left':'0'}, {duration:100});  
   });
 });
