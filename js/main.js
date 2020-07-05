@@ -108,5 +108,15 @@ $(function(){
     },
     function() {
       $(this).find('img').stop(false,true).animate({'width':$('.theme-img').width(), 'height':$('.theme-img').height(), 'top':'0', 'left':'0'}, {duration:100});  
-  });
+    });
+
+    //取り扱い家具カラーのホバーアニメーション
+    $('.color-item').hover(function() {  
+      $(this).find('.color-icon').stop(false,true).animate({'top':'180px'},{queue:false,duration:300});
+      $(this).find('.caption').stop(false,true).fadeIn(200);      
+    },
+    function() {
+      $(this).find('.color-icon').stop(false,true).animate({'top':'0px'},{queue:false,duration:300}); 
+      $(this).find('.caption').stop(false,true).fadeOut(200);      
+    });
 });
