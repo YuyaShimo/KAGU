@@ -345,8 +345,9 @@ figure {
 .keyvisual a {
   position: relative;
   position: absolute;
-  top: 50%;
-  left: 80%;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
   display: inline-block;
   padding-top: 50px;
 }
