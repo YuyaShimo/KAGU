@@ -113,7 +113,7 @@ $(function(){
     //取り扱い家具カラーのホバーアニメーション
     $('.color-item').hover(function() {  
       $(this).find('.color-icon').stop(false,true).animate({'top':'180px'},{queue:false,duration:300});
-      $(this).find('.caption').stop(false,true).fadeIn(200);      
+      $(this).find('.caption').stop(false,true).fadeIn(700);      
     },
     function() {
       $(this).find('.color-icon').stop(false,true).animate({'top':'0px'},{queue:false,duration:300}); 
